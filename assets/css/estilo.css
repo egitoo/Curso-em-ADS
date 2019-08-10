@@ -1,0 +1,63 @@
+/* CSS RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* Reader */
+.header{
+    background-color: #117A25;
+    background-image: linear-gradient(#094214, #117A25);
+}
+.header--title{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 24px;
+    margin-left: 73px;
+}
+.header--title-subtitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+.profile--title{
+    padding: 20px 0 2.5px;
+    font-size: 24px;
+    text-align: center;
+    color: #00420C;
+}
+.profile--text{
+    font-size: 16px;
+    text-align: left;
+    max-width: 337px;
+    line-height: 1.9;
+    margin: 10px auto;
+}
+.field--title{
+    font-size: 24px;
+    color: #00420C;
+    text-align: center;
+    padding: 50px 0 2.5px;
+}
+.field--text{
+    font-size: 16px;
+    text-align: left;
+    max-width: 316px;
+    line-height: 1.9;
+    margin: 10px auto;
+}
+.process--title{
+    font-size: 24px;
+    color: #00420C;
+    text-align: center;
+    padding: 50px 0 2.5px;
+}
+.process--text{
+    font-size: 16px;
+    text-align: left;
+    max-width: 321px;
+    line-height: 1.9;
+    margin: 10px auto;
+}
