@@ -16,7 +16,7 @@
     font-size: 16px;
     text-align: left;
     padding: 24px;
-    margin-left: 73px;
+    margin: 0 0 0 73px;
 }
 .header--title-subtitle{
     font-size: 24px;
@@ -48,16 +48,47 @@
     line-height: 1.9;
     margin: 10px auto;
 }
-.process--title{
+.process__title{
     font-size: 24px;
     color: #00420C;
     text-align: center;
     padding: 50px 0 2.5px;
 }
-.process--text{
-    font-size: 16px;
+.process__list{
     text-align: left;
-    max-width: 321px;
-    line-height: 1.9;
-    margin: 10px auto;
+    margin: 5px auto;
+    max-width: 316px;
+}
+.conceito{
+    background-color: #117A25;
+    border-radius: 5px;
+    max-width: 313px;
+    padding: 25px;
+    margin: 30px auto;
+}
+.conceito__title{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    line-height: 26px;
+}
+.conceito__nota{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    line-height: 60px;
+}
+/* Footer */
+.footer{
+    background-color: #00420C;
+    text-align: left;
+    color:white;
+}
+.footer__image{
+    
+}
+.footer__endereco{
+    padding: 5px 0 0 24px;
+    line-height: 20px;
 }
