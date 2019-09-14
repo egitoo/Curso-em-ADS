@@ -16,12 +16,12 @@
     background-color: #117A25;
 }
 .header__title{
-    margin-left: 50px;
     color: white;
     font-size: 16px;
     text-align: left;
     padding-top: 20px;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 @media(min-width: 600px) {
     .header__title{
@@ -32,17 +32,17 @@
     font-size: 24px;
     font-weight: bold;
     color: white;
-    margin-left: 50px;
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 .menu__estilo{
     background-color: #094214;
 }
 .menu{
-    margin-left: 45px;
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
   }
   @media(min-width: 600px){
     .menu{
@@ -51,6 +51,7 @@
   }
   .menu__item > a{
     padding: 7px;
+    margin-right: 20px;
     text-decoration: none;
     color: white;
     display: block;
@@ -72,7 +73,7 @@
 @media(min-width: 600px) {
     .secao__titulo{
         text-align: left;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 50px;
     }
 }
@@ -85,9 +86,8 @@
 @media(min-width: 600px) {
     .secao__texto{
         text-align: left;
-        margin-left: 50px;
+        margin-left: 20px;
         max-width: 572px;
-
     }
 }
 .conceito{
@@ -144,7 +144,7 @@
 @media(min-width: 600px) {
     .disciplinas__titulo{
     text-align: left;
-    margin-left: 50px;
+    margin-left: 20px;
     font-size: 36px;
     }
 }
@@ -167,12 +167,22 @@
   .table tr:not(:nth-child(1)):hover{     
     background-color: lightgreen;
   }
+  @media(min-width: 1050) {
+      .table{
+        margin-right:  auto;
+        width: 540px;
+        display: inline-flex;
+        height: 327px;
+        justify-items: center;
+
+      }
+  }
   @media(min-width: 600px) {
     .tabelas{
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .table{
-        margin-right:  -5px;
+        margin-right:  auto;
         width: 540px;
         display: inline-flex;
         height: 327px;
@@ -188,18 +198,16 @@
     font-size: 28px;
     color: #00420C;
     text-align: center;
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .professores__bloco{
     display: flex;
     flex-wrap: wrap;
     justify-content: initial;
-    margin-left: 30px;
 }
 @media(min-width: 600px) {
     .professores__bloco{
         justify-content: space-between;
-        margin-left: 50px;
     }
 }
 .professores__cartao{
@@ -220,7 +228,7 @@
     margin-top: 25px;
     margin-right: 20px; 
     line-height: 1.5;
-    max-width: 300px;
+    max-width: 350px;
 }
 @media(min-width: 600px) {
     .professores__nome{
@@ -237,7 +245,7 @@
 @media(min-width: 600px) {
     .container__campo{
         justify-content: initial;
-        margin-left: 50px;
+        margin-left: 20px;
     }
 }
 .contato{
@@ -249,7 +257,7 @@
 @media(min-width: 600px) {
     .contato{
         text-align: left;
-        margin-left: 50px;
+        margin-left: 20px;
     }
 }
 .label{
@@ -307,7 +315,6 @@
 
 .footer__logo--imagem{
     width: 95px;
-    margin-left: 50px;
 }
 @media(min-width: 600px) {
 .footer__logo--imagem{
@@ -316,7 +323,7 @@
 }
 .footer__endereco{
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 20px;
     line-height: 21px;
     margin-top: 15px;
     margin-right: 20px;
