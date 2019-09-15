@@ -23,11 +23,6 @@
     margin-bottom: 5px;
     margin-left: 20px;
 }
-@media(min-width: 600px) {
-    .header__title{
-    padding-top: 40px;
-    }
-}
 .header__title--subtitle{
     font-size: 24px;
     font-weight: bold;
@@ -80,8 +75,11 @@
 .secao__texto{
     font-size: 16px;
     text-align: left;
-    max-width: 337px;
+    max-width: 327px;
     line-height: 1.9;
+}
+.secao__texto > li{
+    margin-left: 20px;
 }
 @media(min-width: 600px) {
     .secao__texto{
