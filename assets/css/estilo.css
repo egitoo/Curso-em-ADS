@@ -83,6 +83,8 @@
 }
 .input__menu{
     display: none;
+    color: white;
+    border: 0;
 }
 .label__menu{
     position: absolute;
@@ -90,6 +92,7 @@
     margin-top: -115px;
     margin-left: 10px;
     float: left;
+    color: white;
 }
 #nav ul {
     display: none;
