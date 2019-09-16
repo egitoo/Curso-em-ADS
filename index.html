@@ -1,76 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <link href="assets/css/estilo.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análise e Desenvolvimento de Sistemas</title>
+  <meta charset="UTF-8">
+  <link href="assets/css/estilo.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análise e Desenvolvimento de Sistemas</title>
 </head>
+
 <body>
-    <header class="header">
+  <header class="header">
+    <div class="container">
+      <div class="header__title">Curso Superior de Tecnologia em</div>
+      <div class="header__title--subtitle">Análise e Desenvolvimento de Sistemas</div>
+    </div>
+
+    <div class="menu__estilo">
       <div class="container">
-        <div class="header__title">Curso Superior de Tecnologia em</div> 
-        <div class="header__title--subtitle">Análise e Desenvolvimento de Sistemas</div>
-      </div>
-
-        <div class="menu__estilo">
-          <div class="container">
-        <nav>
-            <ul class="menu container">
-              <li class="menu__item"><a href="index.html">Início</a></li>
-              <li class="menu__item"><a href="disciplinas.html">Disciplinas</a></li>
-              <li class="menu__item"><a href="professores.html">Professores</a></li>
-              <li class="menu__item"><a href="contato.html">Contato</a></li>
-            </ul>
-          </nav>
-        </div>
-        </div>
-      </header>
-
-      <main>
-        <div class="container">
-          <section class="secao">
-            <h1 class="secao__titulo">Perfil profissional de conclusão</h1>
-            <p class="secao__texto container">Analisa, projeta, desenvolve, testa, implanta e mantém sistemas computacionais de informação. Avalia, seleciona, especifica e utiliza metodologias, tecnologias e ferramentas da Engenharia de Software, linguagens de programação e bancos de dados. Coordena equipes de produção de softwares. Vistoria, realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação</p>
-          </section>
-          
-          <section class="secao">
-              <h1 class="secao__titulo">Campo de atuação</h1>
-              <p class="secao__texto container">Empresas de planejamento, desenvolvimento de projetos, assistência técnica e consultoria. Empresas de tecnologia. Empresas em geral (indústria, comércio e serviços). Organizações não-governamentais. Órgãos públicos. Institutos e Centros de Pesquisa. Instituições de Ensino, mediante formação requerida pela legislação vigente.</p>
-          </section>
-
-          <section class="secao">
-            <h1 class="secao__titulo">Processo seletivo</h1>
-            <ul class="secao__texto container">Entrada anual:
-              <li>20 vagas através da nota do ENEM</li>
-              <li>20 vagas através da nota do Ensino Médio</li>
-            </ul>
-          </section>
-
-          <section class="conceito">
-          <div class="conceito__titulo">Conceito do curso</div>
-          <div class="conceito__nota">4</div>
-        </section>
-
-        <section class="coordenador">
-          <div class="coodernador__titulo">Coordenador</div>
-          <img class="coordernador__foto" src="assets/images/juliano-naves.jpg" alt="Foto do Professor Juliano Fisher Naves">
-          <div class="coordenador_nome">Prof. Juliano Fisher Naves</div>
-        </section>
-      </div>
-      </main>
-
-      <footer class="footer">
-        <div class="container">
-        <div class="footer__logo">
-        <img class="footer__logo--imagem" src="assets/images/logo_ifro.png" alt="Logotipo do IFRO">
-        <div class="footer__endereco">
-        <div class="footer__endereco--nome">IFRO Campus Vilhena</div>
-        <div>Endereço: Rodovia BR-174, Km 3 S/n Zona Urbana, Vilhena - RO, 76980-000 <br>Telefone: (69) 2101-0700</br>
-        </div>
+        <nav id="nav">
+          <label class="label__menu" for="hamburger">&#9776;</label>
+          <input class="input__menu" type="checkbox" id="hamburger">
+          <ul class="menu container">
+            <li class="menu__item"><a href="index.html">Início</a></li>
+            <li class="menu__item"><a href="disciplinas.html">Disciplinas</a></li>
+            <li class="menu__item"><a href="professores.html">Professores</a></li>
+            <li class="menu__item"><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-      </footer>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="secao">
+        <h1 class="secao__titulo">Perfil profissional de conclusão</h1>
+        <p class="secao__texto container">Analisa, projeta, desenvolve, testa, implanta e mantém sistemas computacionais
+          de informação. Avalia, seleciona, especifica e utiliza metodologias, tecnologias e ferramentas da Engenharia
+          de Software, linguagens de programação e bancos de dados. Coordena equipes de produção de softwares. Vistoria,
+          realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação</p>
+      </section>
+
+      <section class="secao">
+        <h1 class="secao__titulo">Campo de atuação</h1>
+        <p class="secao__texto container">Empresas de planejamento, desenvolvimento de projetos, assistência técnica e
+          consultoria. Empresas de tecnologia. Empresas em geral (indústria, comércio e serviços). Organizações
+          não-governamentais. Órgãos públicos. Institutos e Centros de Pesquisa. Instituições de Ensino, mediante
+          formação requerida pela legislação vigente.</p>
+      </section>
+
+      <section class="secao">
+        <h1 class="secao__titulo">Processo seletivo</h1>
+        <ul class="secao__texto container">Entrada anual:
+          <li>20 vagas através da nota do ENEM</li>
+          <li>20 vagas através da nota do Ensino Médio</li>
+        </ul>
+      </section>
+
+      <section class="conceito">
+        <div class="conceito__titulo">Conceito do curso</div>
+        <div class="conceito__nota">4</div>
+      </section>
+
+      <section class="coordenador">
+        <div class="coodernador__titulo">Coordenador</div>
+        <img class="coordernador__foto" src="assets/images/juliano-naves.jpg"
+          alt="Foto do Professor Juliano Fisher Naves">
+        <div class="coordenador_nome">Prof. Juliano Fisher Naves</div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <img class="footer__logo--imagem" src="assets/images/logo_ifro.png" alt="Logotipo do IFRO">
+        <div class="footer__endereco">
+          <div class="footer__endereco--nome">IFRO Campus Vilhena</div>
+          <div>Endereço: Rodovia BR-174, Km 3 S/n Zona Urbana, Vilhena - RO, 76980-000 <br>Telefone: (69) 2101-0700</br>
+          </div>
+        </div>
+      </div>
+  </footer>
 </body>
+
 </html>

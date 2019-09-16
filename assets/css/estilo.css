@@ -15,21 +15,40 @@
 .header{
     background-color: #117A25;
 }
+@media(min-width: 600px) {
+    .header{
+        padding-top: 40px;
+    }
+}
 .header__title{
     color: white;
     font-size: 16px;
     text-align: left;
     padding-top: 20px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 50px;
+}
+@media(min-width: 600px) {
+    .header__title{
+        margin-left: 20px;
+    }
 }
 .header__title--subtitle{
     font-size: 24px;
     font-weight: bold;
     color: white;
     margin-bottom: 15px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-bottom: 20px;
 }
+@media(min-width: 600px) {
+    .header__title--subtitle{
+        margin-left: 20px;
+        padding-bottom: 0;
+    }
+}
+/* MENU */
 .menu__estilo{
     background-color: #094214;
 }
@@ -56,6 +75,36 @@
     text-decoration: underline;
     color: white;
   }
+
+  #nav{
+    width: 100%;
+    position: relative;
+    color: white;
+}
+.input__menu{
+    display: none;
+}
+.label__menu{
+    position: absolute;
+    font-size: 1.6em;
+    margin-top: -115px;
+    margin-left: 10px;
+    float: left;
+}
+#nav ul {
+    display: none;
+}
+#nav input:checked ~ ul {
+    display: flex;
+}
+@media(min-width: 600px) {
+    .label__menu, .input__menu {
+        display: none;
+    }
+    #nav ul{
+        display: flex;
+    }
+}
 
 
 /* MAIN */
@@ -238,7 +287,6 @@
 .container__campo{
     display: flex;
     justify-content: center;
-
 }
 @media(min-width: 600px) {
     .container__campo{
@@ -271,6 +319,7 @@
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: -50px;
+    outline: 0;
   }
   .btn__enviar{
       width: 327px;
@@ -304,6 +353,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 @media(min-width: 600px) {
     .footer__logo{
@@ -323,7 +374,7 @@
     font-size: 18px;
     margin-left: 20px;
     line-height: 21px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-right: 20px;
 }
 .footer__endereco--nome{
