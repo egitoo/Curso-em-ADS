@@ -116,10 +116,11 @@
 
 /* MAIN */
 .secao__titulo{
-    padding: 20px 0 2.5px;
+    padding: 20px 0 15px;
     font-size: 24px;
     text-align: center;
     color: #00420C;
+    font-weight: normal;
 }
 @media(min-width: 600px) {
     .secao__titulo{
@@ -187,14 +188,16 @@
 .coordernador__titulo{
     font-size: 24px;
     color: #00420C;
+    font-weight: normal;
 }
 .coordenador__nome{
     font-size: 18px;
     color: #00420C;
 }
 .coordernador__foto{
-    padding: 15px;
+    margin: 15px;
     border-radius: 25px;
+    border: 2px solid #00420C;
 }
 
 /* DISCIPLINAS */
@@ -234,16 +237,7 @@
   .table tr:not(:nth-child(1)):hover{     
     background-color: lightgreen;
   }
-  @media(min-width: 1050) {
-      .table{
-        margin-right:  auto;
-        width: 540px;
-        display: inline-flex;
-        height: 327px;
-        justify-items: center;
-
-      }
-  }
+  
   @media(min-width: 600px) {
     .tabelas{
         margin-left: 20px;
@@ -324,12 +318,20 @@
     .contato{
         text-align: left;
         margin-left: 20px;
+        font-size: 30px;
+        margin-bottom: 40px;
     }
 }
 .label{
     font-size: 12px;
     color: #117A25;
     width: 50px;
+}
+@media(min-width: 600px) {
+    .label{
+        font-size: 16px;
+        width: 100px;
+    }
 }
 .campo{
     border: 0;
@@ -340,6 +342,14 @@
     margin-bottom: 25px;
     margin-left: -50px;
     outline: 0;
+  }
+  @media(min-width: 600px) {
+      .campo{
+          margin-left: -100px;
+          width: 500px;
+          margin-top: 30px;
+          margin-bottom: 35px;
+      }
   }
   .btn__enviar{
       width: 327px;
@@ -355,7 +365,7 @@
           width: 80px;
           height: 30px;
          display: block;
-         margin-left: 250px;
+         margin-left: 420px;
       }
   }
 
