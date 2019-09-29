@@ -277,8 +277,6 @@
     align-items: top;
 }
 .professores__foto{
-    width: 114px;
-    height: 114px;
     border-radius: 5px;
     border: 2px #00420C solid;
     margin: 10px 15px;
@@ -289,7 +287,7 @@
     margin-top: 20px;
     margin-right: 20px; 
     line-height: 1.5;
-    width: 200px;
+    max-width: 200px;
 }
 @media(min-width: 600px) {
     .professores__nome{
