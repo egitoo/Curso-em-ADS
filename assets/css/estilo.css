@@ -393,9 +393,6 @@
     }
 }
 
-.footer__logo--imagem{
-    width: 95px;
-}
 @media(min-width: 600px) {
 .footer__logo--imagem{
     margin-top: 15px;
